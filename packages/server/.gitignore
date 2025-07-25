@@ -1,0 +1,9 @@
+dist
+.turbo
+cache
+models
+templates/
+.alan
+.alandb
+coverage/
+node_modules/

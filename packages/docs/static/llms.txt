@@ -1,0 +1,52 @@
+# alanOS
+
+> alanOS is a comprehensive framework for building AI agents with persistent personalities across multiple platforms. It provides the architecture, tools, and systems to create sophisticated agents that maintain consistent behavior, learn from interactions, and seamlessly integrate with various services.
+
+alanOS allows developers to create autonomous AI agents that can operate across multiple platforms while maintaining a consistent personality and knowledge base. The framework handles the complexities of state management, conversation context, and platform-specific integration, letting developers focus on defining agent behavior.
+
+## Core Documentation
+
+- [Introduction](https://alan.how/docs/intro): Overview and getting started with alanOS
+- [Quickstart Guide](https://alan.how/docs/quickstart): Setup, installation, and first steps
+- [Core Architecture Overview](https://alan.how/docs/core/overview): Complete framework architecture and component relationships
+- [Agent Runtime](https://alan.how/docs/core/agents): Agent runtime environment and message processing flow
+- [Actions](https://alan.how/docs/core/actions): Implementation of agent behaviors and message handling
+- [Providers](https://alan.how/docs/core/providers): Real-time data providers for agent context building
+- [Evaluators](https://alan.how/docs/core/evaluators): Conversation processing and knowledge extraction
+- [Knowledge System](https://alan.how/docs/core/knowledge): Document processing and semantic search functionality
+- [Database Architecture](https://alan.how/docs/core/database): Storage system with vector embeddings
+- [Plugins](https://alan.how/docs/core/plugins): Creating and managing modular extensions
+- [Project Structure](https://alan.how/docs/core/project): Project organization and character configuration
+- [Worlds](https://alan.how/docs/core/worlds): Collection spaces for organizing entities and rooms
+- [Rooms](https://alan.how/docs/core/rooms): Conversation spaces where entities interact
+- [Entities](https://alan.how/docs/core/entities): Entity-component architecture for flexible data modeling
+- [Services](https://alan.how/docs/core/services): Platform integration and communication management
+- [Tasks](https://alan.how/docs/core/tasks): Scheduled and deferred operations system
+- [FAQ](https://alan.how/docs/faq): Frequently asked questions and troubleshooting
+
+## CLI Tools
+
+- [CLI Overview](https://alan.how/docs/cli/overview): Command-line interface features and capabilities
+- [Create Command](https://alan.how/docs/cli/create): Creating new projects, plugins, or agents
+- [Start Command](https://alan.how/docs/cli/start): Starting an alanOS project or agent
+- [Dev Command](https://alan.how/docs/cli/dev): Running a project in development mode with hot reloading
+- [Agent Command](https://alan.how/docs/cli/agent): Managing agent configurations and state
+- [Projects Command](https://alan.how/docs/cli/projects): Managing project configuration and settings
+- [Plugins Command](https://alan.how/docs/cli/plugins): Managing plugins in your project
+- [Publish Command](https://alan.how/docs/cli/publish): Publishing packages to npm registry
+- [Test Command](https://alan.how/docs/cli/test): Testing alanOS projects and plugins
+- [Update Command](https://alan.how/docs/cli/update): Updating alanOS components
+- [Environment Command](https://alan.how/docs/cli/env): Configuring environment variables and API keys
+
+## More Resources
+
+- [API Documentation](https://alan.how/api): Core interfaces, types, and function documentation
+- [GitHub Repository](https://github.com/alanos/alan): Source code and contributions
+- [Awesome-alanOS](https://github.com/alanos/awesome-alan): Collection of resources, examples, and tools
+- [Blog](https://alan.how/blog): Latest updates, tutorials, and insights
+- [Community Discord](https://discord.gg/alanos): Support and community discussions
+- [REST API Documentation](https://alan.how/docs/rest/alan-os-api): REST endpoints for agent interactions
+- [Legacy Documentation (v0.25.9)](https://alan.how/docs/version-0.25.9/intro): Documentation for older versions
+- [News Archive](https://alan.how/news): Historical news and updates
+- [Contributing Guide](https://alan.how/docs/contributing): How to contribute to alanOS
+- [Packages Showcase](https://alan.how/packages) - Directory of modular plugins and extensions that enhance alan functionality

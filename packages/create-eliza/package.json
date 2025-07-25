@@ -1,0 +1,49 @@
+{
+  "name": "create-alan",
+  "version": "1.3.1",
+  "description": "Initialize an alan project",
+  "type": "module",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "create-alan": "index.mjs"
+  },
+  "scripts": {
+    "create-alan": "bun run index.mjs",
+    "test": "echo \"No tests configured for create-alan\""
+  },
+  "license": "MIT",
+  "author": {
+    "name": "alanOS",
+    "url": "https://twitter.com/alan_OS"
+  },
+  "dependencies": {
+    "@alanos/cli": "1.2.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanOS/alan.git",
+    "directory": "packages/create-alan"
+  },
+  "files": [
+    "cli",
+    "index.mjs",
+    "package.json"
+  ],
+  "keywords": [
+    "alan",
+    "alanos",
+    "ai",
+    "agent",
+    "create"
+  ],
+  "engines": {
+    "node": ">=23.3.0"
+  },
+  "gitHead": "d5bd5c43bfebeb7ac02f9e029f924cb6cd5c2ec7",
+  "devDependencies": {
+    "prettier": "3.5.3"
+  }
+}

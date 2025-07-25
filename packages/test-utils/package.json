@@ -1,0 +1,69 @@
+{
+  "name": "@alanos/test-utils",
+  "description": "Utilities and objects for unit testing",
+  "version": "1.3.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "packageType": "plugin",
+  "platform": "node",
+  "license": "MIT",
+  "author": "alanOS",
+  "keywords": [
+    "plugin",
+    "alanos"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanos/alanos"
+  },
+  "homepage": "https://alanos.ai",
+  "bugs": {
+    "url": "https://github.com/alanos/alanos/issues"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    ".npmignore",
+    "package.json",
+    "tsup.config.ts"
+  ],
+  "dependencies": {
+    "@alanos/core": "1.3.1",
+    "zod": "3.24.2"
+  },
+  "devDependencies": {
+    "dotenv": "16.4.5",
+    "prettier": "3.5.3",
+    "tsup": "8.5.0",
+    "typescript": "5.8.2"
+  },
+  "scripts": {
+    "build": "tsc --noEmit && tsup",
+    "lint": "prettier --write ./src",
+    "test": "bun test",
+    "format": "prettier --write ./src",
+    "format:check": "prettier --check ./src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "resolutions": {
+    "zod": "3.24.2"
+  },
+  "agentConfig": {
+    "pluginType": "alanos:plugin:1.0.0",
+    "pluginParameters": {}
+  },
+  "gitHead": "48d0b08182b5fd5b17dd58198b1fee15b0815775"
+}

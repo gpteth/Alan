@@ -1,0 +1,15 @@
+{
+  "version": "1.3.1",
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "bun",
+  "command": {
+    "publish": {
+      "workspaceConfig": true
+    },
+    "version": {
+      "workspaceConfig": true
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "@alanos/project-tee-starter",
+  "description": "Project starter for alanOS with TEE capabilities",
+  "version": "1.3.1",
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "project",
+    "alanos",
+    "tee"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:alanos/project-tee-starter"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "assets",
+    "Dockerfile",
+    "docker-compose.yaml",
+    "GUIDE.md"
+  ],
+  "dependencies": {
+    "@alanos/cli": "workspace:*",
+    "@alanos/core": "workspace:*",
+    "@alanos/plugin-redpill": "1.0.3",
+    "@alanos/plugin-sql": "workspace:*",
+    "@phala/dstack-sdk": "0.1.11",
+    "@solana/web3.js": "1.98.2",
+    "viem": "2.30.1",
+    "zod": "3.24.2"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "tsup": "8.5.0"
+  },
+  "scripts": {
+    "start": "alanos start",
+    "dev": "alanos dev",
+    "build": "tsup",
+    "lint": "prettier --write ./src ./__tests__",
+    "test:component": "bun test",
+    "test:e2e": "bun test --port 3001",
+    "test": "bun run test:component && bun run test:e2e",
+    "test:coverage": "bun test --coverage",
+    "test:watch": "bun test --watch",
+    "format": "prettier --write ./src ./__tests__",
+    "format:check": "prettier --check ./src ./__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b165ad83e5f7a21bc1edbd83374ca087e3cd6b33",
+  "packageType": "project",
+  "agentConfig": {
+    "pluginType": "alanos:project:1.0.0",
+    "projectConfig": {
+      "name": "project-tee-starter",
+      "description": "Mr. TEE: Project starter for alanOS with TEE capabilities"
+    }
+  }
+}

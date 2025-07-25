@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022"
+    ],
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "checkJs": false,
+    "noEmitOnError": false,
+    "moduleDetection": "force",
+    "allowArbitraryExtensions": true,
+    "types": [
+      "node"
+    ],
+    "baseUrl": "../../../",
+    "paths": {
+      "@alanos/core": [
+        "packages/core/src"
+      ],
+      "@alanos/core/*": [
+        "packages/core/src/*"
+      ],
+      "@alanos/client": [
+        "packages/client/src"
+      ],
+      "@alanos/client/*": [
+        "packages/client/src/*"
+      ],
+      "@alanos/server": [
+        "packages/server/src"
+      ],
+      "@alanos/server/*": [
+        "packages/server/src/*"
+      ],
+      "@alanos/api-client": [
+        "packages/api-client/src"
+      ],
+      "@alanos/api-client/*": [
+        "packages/api-client/src/*"
+      ],
+      "@alanos/cli": [
+        "packages/cli/src"
+      ],
+      "@alanos/cli/*": [
+        "packages/cli/src/*"
+      ],
+      "@alanos/plugin-sql": [
+        "packages/plugin-sql/src"
+      ],
+      "@alanos/plugin-sql/*": [
+        "packages/plugin-sql/src/*"
+      ],
+      "@alanos/plugin-bootstrap": [
+        "packages/plugin-bootstrap/src"
+      ],
+      "@alanos/plugin-bootstrap/*": [
+        "packages/plugin-bootstrap/src/*"
+      ],
+      "@alanos/plugin-dummy-services": [
+        "packages/plugin-dummy-services/src"
+      ],
+      "@alanos/plugin-dummy-services/*": [
+        "packages/plugin-dummy-services/src/*"
+      ],
+      "@alanos/autodoc": [
+        "packages/autodoc/src"
+      ],
+      "@alanos/autodoc/*": [
+        "packages/autodoc/src/*"
+      ],
+      "@alanos/app": [
+        "packages/app/src"
+      ],
+      "@alanos/app/*": [
+        "packages/app/src/*"
+      ],
+      "@alanos/config": [
+        "packages/config/src"
+      ],
+      "@alanos/config/*": [
+        "packages/config/src/*"
+      ]
+    }
+  }
+}
