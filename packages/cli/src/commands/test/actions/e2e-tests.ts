@@ -6,7 +6,7 @@ import { logger, type IAgentRuntime, type ProjectAgent, Project } from '@alanos/
 import * as dotenv from 'dotenv';
 import * as fs from 'node:fs';
 import path from 'node:path';
-import { getalanCharacter } from '@/src/characters/alan';
+import { getalanCharacter } from '@/src/characters/eliza';
 import { startAgent } from '@/src/commands/start';
 import { E2ETestOptions, TestResult } from '../types';
 import { processFilterName } from '../utils/project-utils';

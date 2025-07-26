@@ -1,4 +1,4 @@
-import { getalanCharacter } from '@/src/characters/alan';
+import { getalanCharacter } from '@/src/characters/eliza';
 import { copyTemplate as copyTemplateUtil, promptAndStorePostgresUrl } from '@/src/utils';
 import { join } from 'path';
 import fs from 'node:fs/promises';

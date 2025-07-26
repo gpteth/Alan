@@ -9,7 +9,7 @@ import {
 import { stringToUuid } from '@alanos/core';
 import * as fs from 'node:fs';
 import path from 'node:path';
-import { getalanCharacter } from '@/src/characters/alan';
+import { getalanCharacter } from '@/src/characters/eliza';
 import { detectDirectoryType } from '@/src/utils/directory-detection';
 
 /**

@@ -1,4 +1,4 @@
-import { getalanCharacter } from '@/src/characters/alan';
+import { getalanCharacter } from '@/src/characters/eliza';
 import { configureDatabaseSettings, findNextAvailablePort, resolvePgliteDir } from '@/src/utils';
 import { getModuleLoader } from '@/src/utils/module-loader';
 import { UserEnvironment } from '@/src/utils/user-environment';

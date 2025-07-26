@@ -41,7 +41,7 @@
     "tsup.config.ts"
   ],
   "dependencies": {
-    "@alanos/core": "workspace:*",
+    "@alanos/core": "^1.3.1",
     "@tanstack/react-query": "^5.80.7",
     "clsx": "^2.1.1",
     "tailwind-merge": "^3.3.1",
@@ -50,7 +50,7 @@
     "zod": "3.24.2"
   },
   "devDependencies": {
-    "@alanos/cli": "1.2.10",
+    "@alanos/cli": "1.3.4",
     "@tailwindcss/vite": "^4.1.10",
     "@vitejs/plugin-react-swc": "^3.10.2",
     "dotenv": "16.4.5",

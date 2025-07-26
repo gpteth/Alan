@@ -18,8 +18,8 @@
     "lint": "prettier --write ./src"
   },
   "dependencies": {
-    "@alanos/api-client": "workspace:*",
-    "@alanos/cli": "workspace:*",
+    "@alanos/api-client": "^1.3.1",
+    "@alanos/cli": "^1.3.4",
     "@tauri-apps/api": "^2.6.0",
     "@tauri-apps/plugin-opener": "^2.4.0",
     "@tauri-apps/plugin-shell": "^2.3.0",
